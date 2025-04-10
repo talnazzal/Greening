@@ -87,25 +87,35 @@ The `create_master_dataframe` function processes raw data into a unified master 
 ## Results
 
 ### Weekly Risk Prediction Model
-| Metric                | Value |
-|-----------------------|-------|
-| PR-AUC (Precision-Recall AUC) | 0.013 |
-| ROC-AUC              | 0.635 |
+Aggregate Performance Across Folds
 
-Confusion Matrix:
-[[20309 2257]
-[ 97 57]]
+| Metric        | Mean ± Std Dev |
+|---------------|----------------|
+| PR-AUC        | 0.038 ± 0.032  |
+| ROC-AUC       | 0.744 ± 0.092  |
+| Precision     | 0.012 ± 0.014  |
+| Recall        | 0.516 ± 0.267  |
+| F1-Score      | 0.024 ± 0.026  |
+| Optimal F1-Score  | 0.132  |
+| Optimal Threshold | 0.651  |
 
+
+
+|                | Predicted Class 0 | Predicted Class 1 |
+|----------------|-------------------|-------------------|
+| **Actual Class 0** | 17466              | 178                |
+| **Actual Class 1** | 441                 | 47                |
 
 ---
 
 ### Same-Day Prediction Model
 Confusion Matrix (Optimal Threshold = 0.240):
 
-             Predicted
-             Class 0  Class 1
-Actual Class 0: 4618 30
-Actual Class 1: 5 26
+|                | Predicted Class 0 | Predicted Class 1 |
+|----------------|-------------------|-------------------|
+| **Actual Class 0** | 4618              | 30                |
+| **Actual Class 1** | 5                 | 26                |
+
 
 
 
@@ -114,10 +124,11 @@ Actual Class 1: 5 26
 ### One-Day Prediction Model
 Confusion Matrix (Optimal Threshold = 0.367):
 
-              Predicted
-              Class 0  Class 1
-Actual Class 0: 4643 5
-Actual Class 1: 20 11
+|                | Predicted Class 0 | Predicted Class 1 |
+|----------------|-------------------|-------------------|
+| **Actual Class 0** | 4643              | 5                 |
+| **Actual Class 1** | 20                | 11                |
+
 
 
 
