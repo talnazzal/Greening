@@ -64,7 +64,7 @@ To run this project locally:
    pip install -r requirements.txt
 
 The imlementation code in the directory under name 'Project Code.ipynb'
-   ---
+---
 
 ## Workflow
 
