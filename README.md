@@ -92,20 +92,20 @@ Aggregate Performance Across Folds
 
 | Metric        | Mean ± Std Dev |
 |---------------|----------------|
-| PR-AUC        | 0.038 ± 0.032  |
-| ROC-AUC       | 0.744 ± 0.092  |
-| Precision     | 0.012 ± 0.014  |
-| Recall        | 0.516 ± 0.267  |
-| F1-Score      | 0.024 ± 0.026  |
-| Optimal F1-Score  | 0.132  |
-| Optimal Threshold | 0.651  |
+| PR-AUC        | 0.045 ± 0.036  |
+| ROC-AUC       | 0.624 ± 0.131  |
+| Precision     | 0.046 ± 0.074  |
+| Recall        | 0.228 ± 0.181  |
+| F1-Score      | 0.046 ± 0.070  |
+| Optimal F1-Score  | 0.115  |
+| Optimal Threshold | 0.591  |
 
 
 
 |                | Predicted Class 0 | Predicted Class 1 |
 |----------------|-------------------|-------------------|
-| **Actual Class 0** | 17466              | 178                |
-| **Actual Class 1** | 441                 | 47                |
+| **Actual Class 0** | 17963              | 195                |
+| **Actual Class 1** | 127                 | 21                |
 
 ---
 
