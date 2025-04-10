@@ -63,6 +63,7 @@ To run this project locally:
 3. Install the required Python packages:
    pip install -r requirements.txt
 
+The imlementation code in the directory under name 'Project Code.ipynb'
    ---
 
 ## Workflow
