@@ -90,22 +90,21 @@ The `create_master_dataframe` function processes raw data into a unified master 
 ### Weekly Risk Prediction Model
 Aggregate Performance Across Folds
 
-| Metric        | Mean ± Std Dev |
+| Metric        | Value |
 |---------------|----------------|
-| PR-AUC        | 0.045 ± 0.036  |
-| ROC-AUC       | 0.624 ± 0.131  |
-| Precision     | 0.046 ± 0.074  |
-| Recall        | 0.228 ± 0.181  |
-| F1-Score      | 0.046 ± 0.070  |
-| Optimal F1-Score  | 0.115  |
-| Optimal Threshold | 0.591  |
+| PR-AUC        |  0.1480  |
+| ROC-AUC       |  0.8017  |
+| Precision     | 0.2400  |
+| Recall        | 0.3789  |
+| F1-Score      | 0.2939  |
+| Optimal Threshold | 0.627  |
 
 
 
 |                | Predicted Class 0 | Predicted Class 1 |
 |----------------|-------------------|-------------------|
-| **Actual Class 0** | 17963              | 195                |
-| **Actual Class 1** | 127                 | 21                |
+| **Actual Class 0** | 4021              | 114                |
+| **Actual Class 1** | 59                 | 36                |
 
 ---
 
