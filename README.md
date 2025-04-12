@@ -108,8 +108,15 @@ Aggregate Performance Across Folds
 
 ---
 
-### Same-Day Prediction Model
-Confusion Matrix (Optimal Threshold = 0.240):
+### Same-Day Prediction Model (Instant)
+| Metric        | Value |
+|---------------|----------------|
+| PR-AUC        |  0.6102  |
+| ROC-AUC       |  0.9962  |
+| Precision     | 0.4643  |
+| Recall        | 0.8387  |
+| F1-Score      | 0.5977  |
+| Optimal Threshold | 0.240  |
 
 |                | Predicted Class 0 | Predicted Class 1 |
 |----------------|-------------------|-------------------|
@@ -121,8 +128,16 @@ Confusion Matrix (Optimal Threshold = 0.240):
 
 ---
 
-### One-Day Prediction Model
-Confusion Matrix (Optimal Threshold = 0.367):
+### One-Day Prediction Model (Warning)
+
+| Metric        | Value |
+|---------------|----------------|
+| PR-AUC        |  0.4205  |
+| ROC-AUC       |  0.9483  |
+| Precision     | 0.6875  |
+| Recall        | 0.3548  |
+| F1-Score      | 0.4681  |
+| Optimal Threshold |  0.367  |
 
 |                | Predicted Class 0 | Predicted Class 1 |
 |----------------|-------------------|-------------------|
